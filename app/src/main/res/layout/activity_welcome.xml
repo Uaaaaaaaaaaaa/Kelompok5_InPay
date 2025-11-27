@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@android:color/white">
+
+    <!-- Judul Aplikasi -->
+    <TextView
+        android:id="@+id/tv_welcome_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:textColor="@android:color/black" />
+
+    <!-- Sub Judul -->
+    <TextView
+        android:id="@+id/tv_welcome_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silakan login atau daftar untuk melanjutkan"
+        android:textSize="16sp"
+        android:layout_marginBottom="30dp"
+        android:textColor="#555555" />
+
+    <!-- Username Input -->
+    <EditText
+        android:id="@+id/edt_welcome_username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Username"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/edt_welcome_password"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Password"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:inputType="textPassword"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Tombol Login -->
+    <Button
+        android:id="@+id/btn_welcome_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Login"
+        android:textSize="16sp"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Tombol Register -->
+    <Button
+        android:id="@+id/btn_welcome_register"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Register"
+        android:textSize="16sp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

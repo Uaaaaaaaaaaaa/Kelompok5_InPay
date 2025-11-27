@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "463682433538",
+    "firebase_url": "https://inpay-31ba8-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "inpay-31ba8",
+    "storage_bucket": "inpay-31ba8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:463682433538:android:665f5173c40ee19726ad1b",
+        "android_client_info": {
+          "package_name": "com.example.aplikasiloginmodern"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDx_BR38M1_co_-X4YFIWAVNQ-GL49b0No"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

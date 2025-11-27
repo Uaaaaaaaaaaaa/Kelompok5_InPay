@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="panti_title" translatable="false">Judul Buku</string>
+    <string name="app_name" translatable="false">InPay</string>
+    <string name="title_register" translatable="false">Buat Akun Baru</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password" translatable="false">Konfirmasi Password</string>
+    <string name="btn_register">Register</string>
+
+    <!-- 🔹 nama Panti -->
+    <string-array name="data_title">
+        <item>Panti Asuhan Al Ikhlas</item>
+        <item>Panti Asuhan Sabilul Khairaat</item>
+        <item>Panti Asuhan Alhijrah Duyu</item>
+        <item>Panti Asuhan Al Mursalaat</item>
+        <item>Panti Asuhan Al Muhajirin</item>
+        <item>Panti Asuhan Nur Anatapura</item>
+        <item>Panti Asuhan Kristen Immanuel</item>
+        <item>Panti Asuhan Darussalam</item>
+        <item>Panti Asuhan Al Hidayah</item>
+        <item>Panti Asuhan Al Fatahu</item>
+    </string-array>
+
+    <!-- 🔹 Gambar Panti -->
+    <array name="data_photo_panti">
+        <item>@drawable/ulujadi_alikhlas</item>
+        <item>@drawable/ulujadi_sabilul_khairaat</item>
+        <item>@drawable/tatanga_alhijrah_duyu</item>
+        <item>@drawable/palutimur_almursalat</item>
+        <item>@drawable/palu_barat_al_muhajirin</item>
+        <item>@drawable/nur_anatapura</item>
+        <item>@drawable/kristen_immanuel</item>
+        <item>@drawable/darussalam</item>
+        <item>@drawable/alhidayah</item>
+        <item>@drawable/al_fatahu</item>
+    </array>
+
+    <!-- 🔹 Alamat Panti -->
+    <string-array name="data_alamat">
+        <item>Jl. Munif Rahman, Kabonena, Kec. Palu Bar., Kota Palu, Sulawesi Tengah 94221</item>
+        <item>Jl. Kedondong, Donggala Kodi, Kec. Ulujadi, Kota Palu, Sulawesi Tengah 94111</item>
+        <item>Duyu, Kec. Tatanga, Kota Palu, Sulawesi Tengah 94222</item>
+        <item>Unnamed Road, Talise, Kec. Palu Tim., Kota Palu, Sulawesi Tengah 94118</item>
+        <item>Jl. Kunduri No.10, Balaroa, Kec. Palu Bar., Kota Palu, Sulawesi Tengah 94111</item>
+        <item>Jl. Tanggul Selatan No.17, Birobuli Sel., Kec. Palu Sel., Kota Palu, Sulawesi Tengah 94111</item>
+        <item>Jl. Hasanuddin No.72, Lolu Utara, Kec. Palu Sel., Kota Palu, Sulawesi Tengah 94111</item>
+        <item>Jl. DR. Abdurrahman Saleh, Birobuli Utara, Kec. Palu Sel., Kota Palu, Sulawesi Tengah 94111</item>
+        <item>Lasoani, Kec. Palu Tim., Kota Palu, Sulawesi Tengah 94111</item>
+        <item>Jl. Sungai Balantak, Nunu, Kec. Palu Bar., Kota Palu, Sulawesi Tengah 94111</item>
+    </string-array>
+
+    <!-- 🔹 Rekening Panti -->
+    <string-array name="data_rekening">
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+        <item>7262726201</item>
+    </string-array>
+
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+</resources>
